@@ -1,13 +1,13 @@
-## Image Filters
+# Image Filters
 
 
-# Program and Algorithm Explanations
+## Program and Algorithm Explanations
 
 In my Python program a3.py, I implemented four image processing kernels which
 apply two different image filters, unsharp masking and median filtering, to either a
 grayscale image or a RGB colour image.
 
-# Running the a3.py file
+## Running the a3.py file
 
 In order to run the a3.py file, there are a few steps you need to take first before you
 can run the file and produce a sharpened/noise reduced image. Firstly, you need to make

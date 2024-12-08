@@ -33,3 +33,9 @@ kernels, this value can be anything)
 - inFileName: Name of the file you wish to apply the filter to
 - outFileName: Name of the file that contains the image after the filters were
 applied
+
+## Important Note About Parallelism
+
+In my program, I set the device to run the Warp kernels on to be the cpu, so the program will
+not benefit from parallelism by default. To fix this, change the line in the code that sets the "device" variable
+to "cuda" instead of "cpu". Make sure that you have a compadible Nvidia GPU before doing this.

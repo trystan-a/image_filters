@@ -19,7 +19,7 @@ well as any images that you would like to filter in a directory on your computer
 easy to navigate to. Once that's done, you can open up a terminal and navigate to the
 directory containing the Python file and images and run the command:
 
-python3 a3.py <algType> <kernSize> <param> <inFileName> <outFileName>
+python3 a3.py algType kernSize param inFileName outFileName
 
 This command will take five command line arguments. Each of them has an important
 use to the program.
